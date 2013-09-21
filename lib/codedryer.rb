@@ -1,5 +1,2 @@
 require "codedryer/version"
-
-module Codedryer
-  # Your code goes here...
-end
+require "codedryer/recipes/forward"
