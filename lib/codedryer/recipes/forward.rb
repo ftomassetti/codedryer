@@ -17,3 +17,22 @@ class Class
 	include ForwardRecipe
 
 end
+
+module Codedryer
+
+# It is responsible to traverse the lightmodel
+# and find where it could be applied, then apply
+# itself
+class ForwardRecipe
+
+	def applyable?
+		true
+	end
+
+	def name
+		'ForwardRecipe'
+	end
+
+end
+
+end
